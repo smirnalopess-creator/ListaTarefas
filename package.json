@@ -1,0 +1,21 @@
+
+{
+  "name": "backend-lista-tarefas",
+  "version": "1.0.0",
+  "description": "API de lista de tarefas com Express e Supabase",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=20.x"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.57.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0"
+  }
+}
